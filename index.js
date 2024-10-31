@@ -12,8 +12,9 @@ const productRoutes = require('./routes/product.route.js');
 //Routes
 app.use('/api/products', productRoutes);
 
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
+const PORT = process.env.PORT || 7002
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
 });
 
 app.get('/', (req, res) => {
