@@ -22,9 +22,12 @@
   "dependencies": {
     "express": "^4.21.1",
     "mongodb": "^6.10.0",
-    "mongoose": "^8.7.3"
+    "mongoose": "^8.7.3",
+    "node-express-mongodb-crud": "file:"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.5",
     "nodemon": "^3.1.7"
   }
 }
