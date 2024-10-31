@@ -1,0 +1,26 @@
+To merge the develop branch into main, you’ll need to follow these steps in Git Bash:
+
+Switch to the main Branch
+git checkout main
+
+Pull Latest Changes from main
+git pull origin main
+
+Merge develop into main
+git merge develop
+
+
+Resolve Conflicts (if any)
+If there are any conflicts, Git will notify you. Open the conflicted files, resolve the conflicts, then stage the changes:
+git add .
+
+Commit the Merge
+After resolving conflicts (if any), commit the merge:
+git commit -m "Merge branch 'develop' into 'main'"
+
+git commit -m "Merge branch 'develop' into 'main'"
+
+Push the Updated main Branch to GitHub
+Finally, push the merged main branch to your remote repository:
+
+git push origin main
