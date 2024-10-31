@@ -1,2 +1,7 @@
 node index.js (to check index.js file console log whatever u want)
 npm run start (customize npm start)
+npm i nodemon -D
+username (solaiman0168)
+password (xIattLckPtHwTCWq)
+npm i mongodb
+npm i mongoose
