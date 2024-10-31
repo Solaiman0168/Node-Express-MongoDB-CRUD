@@ -1,0 +1,11 @@
+Switch to the main branch (if you're not already on it):
+
+git checkout main
+
+Pull the latest changes (optional, but recommended to make sure you're up-to-date):
+
+git pull origin main
+
+Create and switch to the new branch:
+
+git checkout -b new-branch-name
