@@ -1,0 +1,55 @@
+Run this command to initialize a Git repository (skip this step if Git is already initialized)
+
+git init
+
+Add all files in your project to be tracked by Git:
+
+git add .
+
+(Optional) Check the status to verify the files added:
+
+git status
+
+Commit the files with a descriptive message:
+
+git commit -m "Initial commit"
+
+Create a New Repository on GitHub
+
+Add Remote Repository in Git Bash
+
+Copy the repository URL from GitHub (it will look like https://github.com/username/repository-name.git).
+
+In Git Bash, set the remote URL:
+
+git remote add origin https://github.com/username/repository-name.git
+
+Verify the remote URL (optional):
+
+git remote -v
+
+Push your code to GitHub:
+
+git push -u origin main
+
+Push your code to GitHub:
+
+git push -u origin main
+
+Note: If your branch is named master instead of main, replace main with master above.
+
+Verify on GitHub
+
+Go to your GitHub repository page, refresh it, and you should see your code uploaded.
+
+For subsequent changes, you can just add, commit, and push with:
+
+git add .
+git commit -m "Updated code"
+git push
+
+
+This guide should get your project live on GitHub! Let me know if you encounter any issues during the process.
+
+
+
