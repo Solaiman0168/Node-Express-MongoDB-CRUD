@@ -44,9 +44,21 @@ Go to your GitHub repository page, refresh it, and you should see your code uplo
 
 For subsequent changes, you can just add, commit, and push with:
 
+Stage your changes:
 git add .
+
+Commit with a message:
 git commit -m "Updated code"
+
+push the branch
 git push
+
+
+To push your commit to the origin remote, use the following command:
+git push origin <branch-name>
+
+
+
 
 
 This guide should get your project live on GitHub! Let me know if you encounter any issues during the process.
