@@ -36,6 +36,10 @@ Push your code to GitHub:
 
 git push -u origin main
 
+For the first push:
+
+git push -u origin new-branch-name
+
 Note: If your branch is named master instead of main, replace main with master above.
 
 Verify on GitHub
