@@ -12,9 +12,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const productRoutes = require('./routes/product.route.js');
+const authRoutes = require('./routes/authRoutes');
 
 //Routes
 app.use('/api/products', productRoutes);
+app.use('/api/auth', authRoutes);
 
 const PORT = process.env.PORT || 7002
 app.listen(PORT, () => {
