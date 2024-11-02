@@ -29,13 +29,3 @@ app.get('/', (req, res) => {
     res.send('Hello from Node Api server Updated');
 });
 
-// mongoose
-//     .connect(
-//         ''
-//     )
-//     .then(() => {
-//         console.log('Connected to Database!');
-//     })
-//     .catch((err) => {
-//         console.log('Connection failed!', err);
-//     });
